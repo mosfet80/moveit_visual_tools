@@ -2,8 +2,8 @@
 Changelog for package moveit_visual_tools
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+4.1.1 (2024-11-29)
+------------------
 * CI: Fix broken pre-commit action
 * CI: Return to custom cache action
 * Update status badges in README

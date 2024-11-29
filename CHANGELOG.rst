@@ -2,6 +2,23 @@
 Changelog for package moveit_visual_tools
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* CI: Fix broken pre-commit action
+* CI: Return to custom cache action
+* Update status badges in README
+* Fix typo in warning message (`#141 <https://github.com/ros-planning/moveit_visual_tools/issues/141>`_)
+* CI: Fix ament_flake8 issues
+* CI: Update actions
+* Default state publisher topic to DISPLAY_ROBOT_STATE_TOPIC (`#135 <https://github.com/ros-planning/moveit_visual_tools/issues/135>`_)
+* Update GHA (`#128 <https://github.com/ros-planning/moveit_visual_tools/issues/128>`_)
+* publishTrajectoryLine(): issue error when no end-effector tips are found (`#127 <https://github.com/ros-planning/moveit_visual_tools/issues/127>`_)
+* Switch to clang-format-14 (`#126 <https://github.com/ros-planning/moveit_visual_tools/issues/126>`_)
+* Typo fix (`#124 <https://github.com/ros-planning/moveit_visual_tools/issues/124>`_)
+* Update README.md (`#122 <https://github.com/ros-planning/moveit_visual_tools/issues/122>`_)
+* Humble CI and clang-format updates (`#120 <https://github.com/ros-planning/moveit_visual_tools/issues/120>`_)
+* Contributors: Henning Kayser, Mario Prats, Paul Draghicescu, Robert Haschke, Stephanie Eng, Vatan Aksoy Tezer, mosfet80
+
 4.1.0 (2022-05-09)
 ------------------
 * Update black version (`#117 <https://github.com/ros-planning/moveit_visual_tools/issues/117>`_)

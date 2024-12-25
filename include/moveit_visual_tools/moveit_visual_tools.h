@@ -38,7 +38,11 @@
 #include <rviz_visual_tools/rviz_visual_tools.hpp>
 
 // MoveIt
+#if __has_include(<moveit/planning_scene_monitor/planning_scene_monitor.hpp>)
+#include <moveit/planning_scene_monitor/planning_scene_monitor.hpp>
+#else
 #include <moveit/planning_scene_monitor/planning_scene_monitor.h>
+#endif
 
 // MoveIt Messages
 #include <moveit_msgs/msg/grasp.hpp>

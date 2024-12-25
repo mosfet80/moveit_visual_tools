@@ -39,7 +39,11 @@
 #include <moveit_visual_tools/moveit_visual_tools.h>
 
 // MoveIt
+#if __has_include(<moveit/planning_scene_monitor/planning_scene_monitor.hpp>)
+#include <moveit/planning_scene_monitor/planning_scene_monitor.hpp>
+#else
 #include <moveit/planning_scene_monitor/planning_scene_monitor.h>
+#endif
 
 // C++
 #include <string>

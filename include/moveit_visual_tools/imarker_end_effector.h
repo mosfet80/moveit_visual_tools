@@ -41,7 +41,11 @@
 #include <interactive_markers/menu_handler.hpp>
 
 // MoveIt
+#if __has_include(<moveit/robot_state/robot_state.hpp>)
+#include <moveit/robot_state/robot_state.hpp>
+#else
 #include <moveit/robot_state/robot_state.h>
+#endif
 
 // this package
 #include <moveit_visual_tools/moveit_visual_tools.h>

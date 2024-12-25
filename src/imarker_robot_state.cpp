@@ -31,8 +31,17 @@
 */
 
 // MoveIt
+#if __has_include(<moveit/robot_state/conversions.hpp>)
+#include <moveit/robot_state/conversions.hpp>
+#else
 #include <moveit/robot_state/conversions.h>
+#endif
+
+#if __has_include(<moveit/transforms/transforms.hpp>)
+#include <moveit/transforms/transforms.hpp>
+#else
 #include <moveit/transforms/transforms.h>
+#endif
 
 // this package
 #include <moveit_visual_tools/imarker_robot_state.h>

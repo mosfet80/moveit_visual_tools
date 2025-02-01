@@ -2,8 +2,8 @@
 Changelog for package moveit_visual_tools
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+4.1.2 (2025-02-01)
+------------------
 * Enhancement/use hpp for headers based on PR https://github.com/moveit/moveit2/pull/3113 (`#147 <https://github.com/ros-planning/moveit_visual_tools/issues/147>`_)
 * Contributors: Cihat Kurtuluş Altıparmak
 

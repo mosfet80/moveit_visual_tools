@@ -2,6 +2,11 @@
 Changelog for package moveit_visual_tools
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Enhancement/use hpp for headers based on PR https://github.com/moveit/moveit2/pull/3113 (`#147 <https://github.com/ros-planning/moveit_visual_tools/issues/147>`_)
+* Contributors: Cihat Kurtuluş Altıparmak
+
 4.1.1 (2024-11-29)
 ------------------
 * CI: Fix broken pre-commit action

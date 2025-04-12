@@ -13,6 +13,7 @@ find_package(moveit_core REQUIRED)
 find_package(moveit_ros_planning REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(rclcpp_components REQUIRED)
+find_package(rviz_resource_interfaces REQUIRED)
 find_package(rviz_visual_tools REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(tf2_eigen REQUIRED)
@@ -33,6 +34,7 @@ set(THIS_PACKAGE_INCLUDE_DEPENDS
   tf2_ros
   trajectory_msgs
   visualization_msgs
+  rviz_resource_interfaces
 )
 
 # Visualization Tools Library

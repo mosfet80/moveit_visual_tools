@@ -42,9 +42,9 @@ add_library(${PROJECT_NAME} SHARED
   src/imarker_end_effector.cpp
 )
 
-     target_link_libraries(${PROJECT_NAME} PUBLIC
-       ${geometry_msgs_TARGETS}
-       ${graph_msgs_TARGETS}
+target_link_libraries(${PROJECT_NAME} PUBLIC
+  ${geometry_msgs_TARGETS}
+  ${graph_msgs_TARGETS}
 )
     
     target_link_libraries(${PROJECT_NAME} PUBLIC

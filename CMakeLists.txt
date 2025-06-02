@@ -42,9 +42,9 @@ add_library(${PROJECT_NAME} SHARED
   src/imarker_end_effector.cpp
 )
 
-target_link_libraries(${PROJECT_NAME} PUBLIC
-  ${geometry_msgs_TARGETS}
-  ${graph_msgs_TARGETS}
+target_include_directories(${PROJECT_NAME} PUBLIC
+    $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+    $<INSTALL_INTERFACE:include/${PROJECT_NAME}>
 )
     
     target_link_libraries(${PROJECT_NAME} PUBLIC
@@ -184,6 +184,7 @@ install(
 install(DIRECTORY include/ DESTINATION include/${PROJECT_NAME})
 
 # Install shared resources
+install(DIRECTORY include/ DESTINATION include/${PROJECT_NAME})
 install(DIRECTORY launch resources DESTINATION share/${PROJECT_NAME})
 
 #############
